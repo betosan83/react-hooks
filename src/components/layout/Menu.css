@@ -2,7 +2,12 @@
     display: flex;
     flex-basis: 250px;
 
-    background-color: rgb(56, 131, 207);
+    background: linear-gradient(to top, #00b4db, #006c90);
+    
+    z-index: 1;
+    -webkit-box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
+    box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
 }
 
 .Menu nav {
@@ -22,6 +27,7 @@
     flex: 1;
     padding: 10px;
     margin-bottom: 10px;
+
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;

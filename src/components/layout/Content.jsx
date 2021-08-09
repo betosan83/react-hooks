@@ -1,25 +1,50 @@
-import React from 'react'
 import './Content.css'
-import {Switch, Route} from 'react-router-dom'
-import About from '../../views/examples/About'
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+
 import Home from '../../views/examples/Home'
-import Param from '../../views/examples/Param'
 import NotFound from '../../views/examples/NotFound'
+import UseState from '../../views/examples/UseState'
+import UseEffect from '../../views/examples/UseEffect'
+import UseRef from '../../views/examples/UseRef'
+import UseCallback from '../../views/examples/UseCallback'
+import UseMemo from '../../views/examples/UseMemo'
+import UseContext from '../../views/examples/UseContext'
+import UseReducer from '../../views/examples/UseReducer'
+import UseCustom from '../../views/examples/UseCustom'
 
 const Content = props => (
     <main className="Content">
         <Switch>
-            <Route path="/about">
-                <About></About>
-            </Route>
-            <Route path="/param/:id">
-                <Param></Param>
-            </Route>
             <Route exact path="/">
-                <Home></Home>
+                <Home />
             </Route>
-            <Route exact path="*">
-                <NotFound></NotFound>
+            <Route path="/useState">
+                <UseState />
+            </Route>
+            <Route path="/useEffect">
+                <UseEffect />
+            </Route>
+            <Route path="/useRef">
+                <UseRef />
+            </Route>
+            <Route path="/useCallback">
+                <UseCallback />
+            </Route>
+            <Route path="/useMemo">
+                <UseMemo />
+            </Route>
+            <Route path="/useContext">
+                <UseContext />
+            </Route>
+            <Route path="/useReducer">
+                <UseReducer />
+            </Route>
+            <Route path="/useCustom">
+                <UseCustom />
+            </Route>
+            <Route path="*">
+                <NotFound />
             </Route>
         </Switch>
     </main>
