@@ -20,7 +20,7 @@ function reducer(state, action) {
 }
 
 const UseReducer = (props) => {
-    const [state, exec] = useReducer(reducer, initialState)
+    const [state, dispatch] = useReducer(reducer, initialState)
     return (
         <div className="UseReducer">
             <PageTitle
@@ -32,9 +32,9 @@ const UseReducer = (props) => {
                 <span className="text">{state.number}</span>
                 <div>
                     <button className="btn"
-                        onClick={() => exec({ type : 'login' })}>Login</button>
+                        onClick={() => dispatch({ type : 'login' })}>Login</button>
                     <button className="btn"
-                        onClick={() => exec({ type: 'numberAdd2' })}>+2</button>
+                        onClick={() => dispatch({ type: 'numberAdd2' })}>+2</button>
                 </div>
             </div>
         </div>
