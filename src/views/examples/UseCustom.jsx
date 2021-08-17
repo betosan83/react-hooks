@@ -11,7 +11,7 @@ const UseRef = (props) => {
     const response = useFetch(url)
 
     function showStates(states) {
-        return states.map(state => <li>{state.nome} - { state.sigla}</li>)
+        return states.map(state => <li key={state.nome}>{state.nome} - { state.sigla}</li>)
     }
 
     return (
@@ -33,7 +33,7 @@ const UseRef = (props) => {
             <SectionTitle title="Exercício #02"/>
             <div className="center">
                 <ul>
-                    {response.data ? showStates(response.data) : false}
+                    {!response.loading ? showStates(response.data) : false}
                 </ul>
             </div>
         </div>
