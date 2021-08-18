@@ -17,7 +17,7 @@ const UseRef = (props) => {
     return (
         <div className="UseCustom">
             <PageTitle
-                title="Seu Hook"
+                title="My Hook"
                 subtitle="Vamos aprender como criar o nosso próprio Hook!"
             />
             <SectionTitle title="Exercício #01"/>
