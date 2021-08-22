@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).![React Hooks Cadastro]
+
+
+(https://user-images.githubusercontent.com/33357673/130371495-5742e30a-6f68-49a1-809d-6010641b9ea5.JPG)
+
 
 ## Available Scripts
 
@@ -65,6 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
-
+### `yarn build` fails to minify![React Hooks Cadastro](https://user-images.githubusercontent.com/33357673/130371503-d4576aae-9444-4e3f-a9a2-df4d916f34e8.JPG)
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
